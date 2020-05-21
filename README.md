@@ -1,11 +1,9 @@
-### Date created
-Include the date you created this project and README file.
+BIKESHARE PROJECT
 
-### Project Title
-Replace the Project Title
+Intoduction
+This is part of Udacity Python foundation course that uses knowledge of Python's modules- Pandas and Numpy,to make analyze of the bike sharing data provided, and answer relevant questions about it.
 
-### Description
-Describe what your project is about and what it does
+
 
 ### Files used
 Include the files used
