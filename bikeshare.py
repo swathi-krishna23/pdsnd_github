@@ -83,7 +83,7 @@ def get_filters():
                 month = input('January/jan, February/feb, March/mar, April/apr, May, June/jun- ').lower()
                 print()
                 if month not in MONTH_DATA:
-                    print('Sorry I did not understand that input. Could you try again?')
+                    print('Did not comprehend the input please do it again')
                     continue
                 month = MONTH_DATA[month]
                 day='all'
@@ -92,7 +92,7 @@ def get_filters():
                 day = input('Monday/mon, Tuesday/tues, Wednesday/wed, Thursday/thur, Friday/fri, Saturday/sat, Sunday/sun- ').lower()
                 print()
                 if day not in WEEK_DATA:
-                    print('Sorry I did not understand that input. Could you try again?')
+                    print('Did not comprehend the input please do it again')
                     continue
                 day = WEEK_DATA[day]
                 month='all'
@@ -101,18 +101,18 @@ def get_filters():
                 month = input('January/jan, February/feb, March/mar, April/apr, May, June/jun- ').lower()
                 print()
                 if month not in MONTH_DATA:
-                    print('Sorry I did not understand that input. Could you try again?')
+                    print('Did not comprehend the input please do it again')
                     continue
                 month = MONTH_DATA[month]
                 print('And day of the week?')
                 day = input('Monday/mon, Tuesday/tues, Wednesday/wed, Thursday/thur, Friday/fri, Saturday/sat, Sunday/sun- ').lower()
                 print()
                 if day not in WEEK_DATA:
-                    print('Sorry I did not understand that input. Could you try again?')
+                    print('Did not comprehend the input please do it again')
                     continue
                 day = WEEK_DATA[day]
             else:
-                print('Sorry I did not understand that input. Could you try again?')
+                print('Did not comprehend the input please do it again')
                 continue
             break
         else:
