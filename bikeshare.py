@@ -38,9 +38,9 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
     Returns:
-         city - name of the city to analyze
-         month - name of the month to filter by, or "all" to apply no month filter
-         day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) city - name of the city to analyze
+        (str) month - name of the month to filter by, or "all" to apply no month filter
+        (str)day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Explore some US bikeshare data!')
     print()
@@ -267,7 +267,7 @@ def user_stats(pdf):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-# giving choice to enter data 
+# giving choice to enter data
 def display_data(pdf):
     """ asks if the user wants to input, if yes makes to enter the choice """
     choice = input('Would you like to read some of the raw data? Yes/No ').lower()
