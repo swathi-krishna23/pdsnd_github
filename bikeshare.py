@@ -267,7 +267,7 @@ def user_stats(pdf):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+# giving choice to enter data 
 def display_data(pdf):
     """ asks if the user wants to input, if yes makes to enter the choice """
     choice = input('Would you like to read some of the raw data? Yes/No ').lower()
