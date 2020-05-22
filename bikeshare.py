@@ -306,9 +306,9 @@ def main():
         user_stats(pdf)
         display_data(pdf)
 
-        redo = input('\nWould you like to restart? Enter yes or no.\n').lower()
+        restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
         print()
-        if redo != 'yes' and redo != 'y' and redo != 'yus':
+        if restart != 'yes' and restart != 'y' and restart != 'yus':
             break
 
 if __name__ == "__main__":
