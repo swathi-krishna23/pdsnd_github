@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is part of Udacity Python foundation course that uses knowledge of Python's modules- Pandas and Numpy,to make analyze of the bike sharing data provided, and answer relevant questions about it.
+This is part of Udacity Python foundation course that uses knowledge of Python's modules- Pandas and Numpy, to make analyze of the bike sharing data provided, and answer relevant questions about it. The project can be used as a tool to figure out the data given.
 
 ## Files used
 
